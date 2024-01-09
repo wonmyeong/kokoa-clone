@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-@import "components/status.css";
-@import "login.css";
 @import "reset.css";
 @import "variables.css";
+
+/* components */
+@import "components/status.css";
 @import "components/nav.css";
+@import "components/screen-header.css";
+
+/* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+
 body {
   font-family: "Open Sans", sans-serif;
 }
