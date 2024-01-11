@@ -12,6 +12,11 @@
   font-size: 15px;
   opacity: 0.5;
 }
+
+.chats a {
+  text-decoration: none;
+}
+
 .chats .user-component__text span {
   opacity: 0.7;
 }

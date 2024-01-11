@@ -1,26 +1,12 @@
-.setting-bar {
-  display: flex;
-  justify-content: space-between;
-  margin: 25px var(--horizontal-space);
-  padding-bottom: 25px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+.settings .user-component {
+  border-bottom: 1px solid black;
+  margin: var(--horizontal-space);
+  padding: 10px 0px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
-.setting-bar-column {
-  display: flex;
-  align-items: center;
-}
-
-.setting-bar-column i {
-  margin-right: 20px;
-  opacity: 0.7;
-}
-.setting-bar__name span {
-  font-size: 30px;
+.settings .user-component__text {
+  margin-left: 20px;
+  font-size: 25px;
   font-weight: 600;
-  opacity: 0.7;
-}
-
-.setting-bar:last-child .setting-bar-column:last-child {
-  opacity: 0.5;
 }
