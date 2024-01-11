@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>chat</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>75%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <div class="alt-screen">
+      <div class="alt-screen-bar">
+        <div class="alt-screen-bar__column">
+          <a href="more.html"><i class="fa-solid fa-chevron-left fa-2x"></i></a>
+        </div>
+        <div class="alt-screen-bar__column">
+          <span class="alt-screen-title">경훈</span>
+        </div>
+        <div class="alt-screen-bar__column">
+          <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </div>
+      </div>
+    </div>
+
+    <header class="chat-time-bar">
+      <div class="chat-time-bar__content">Tuesday, June 30, 2020</div>
+    </header>
+
+    <main class="main-screen chat">
+      <div class="message-block">
+        <div class="message__row">
+          <img src="./screenshots/kyeonghun.jpg" />
+          <div class="message-content">
+            <h4 class="message__speaker">경훈</h4>
+            <div class="message__info">
+              <div class="message__bubble">제로투 같이 추실래요??</div>
+              <div class="message__time">12:22</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-block">
+        <div class="message-row">
+          <img src="./screenshots/kyeonghun.jpg" />
+        </div>
+      </div>
+
+      <div class="message-block">
+        <div class="message__row message-row--reply">
+          <div class="message-content message-row--reply">
+            <div class="message__info message-row--reply-info">
+              <div class="message__bubble">좋아요!!</div>
+              <div class="message__time">12:22</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="type">
+      <div class="type__column">
+        <i class="fa-regular fa-square-plus fa-2x"></i>
+      </div>
+      <div class="type__column">
+        <input type="text" placeholder="write a message ...." />
+        <i class="fa-regular fa-face-smile fa-lg fa-3x"></i>
+        <button><i class="fa-solid fa-arrow-up fa-2x"></i></button>
+      </div>
+    </form>
+  </body>
+
+  <script
+    src="https://kit.fontawesome.com/75a4b52158.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

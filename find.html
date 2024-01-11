@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Friends</title>
+    <title>Find</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,48 +24,64 @@
       </div>
     </div>
     <header class="screen-header">
-      <h2>Friends</h2>
+      <h2>Find</h2>
       <div>
         <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-music"></i>
         <i class="fa-solid fa-gear"></i>
       </div>
     </header>
 
-    <main>
-      <article id="alarm-bar">
-        <i class="fa-solid fa-circle-info"></i>
-        <span>Friends' Names Display</span>
-        <i class="fa-solid fa-chevron-right"></i>
-      </article>
-
-      <div class="user-component">
-        <div class="user-component__column">
-          <img src="./screenshots/kyeonghun.jpg" />
-          <div class="user-component__text">
-            <h4 class="user-component__title">경훈</h4>
-          </div>
-        </div>
-      </div>
-
-      <div class="line-divider">
-        <span class="line-divider__column">Channel</span>
-        <span class="line-divider__column">
-          <i class="fa-solid fa-chevron-up"></i>
+    <main class="main-screen__find">
+      <div class="icon-bar">
+        <span class="icon-bar__icons">
+          <i class="fa-solid fa-qrcode fa-3x"></i>
+          <h5>QR Code</h5>
+        </span>
+        <span class="icon-bar__icons">
+          <i class="fa-regular fa-address-book fa-3x"></i>
+          <h5>Add by Contacts</h5>
+        </span>
+        <span class="icon-bar__icons">
+          <i class="fa-solid fa-fingerprint fa-3x"></i>
+          <h5>Add by ID</h5>
+        </span>
+        <span class="icon-bar__icons">
+          <i class="fa-regular fa-envelope fa-3x"></i>
+          <h5>Invite</h5>
         </span>
       </div>
 
-      <div class="user-component">
-        <div class="user-component__column">
-          <img src="./screenshots/kyeonghun.jpg" />
-          <div class="user-component__text">
-            <h4 class="user-component__title__title--not-bold">channel</h4>
+      <div class="line-divider">
+        <span class="line-dvider__column">Recommended Friends</span>
+      </div>
+
+      <p>You have no recommended friends</p>
+
+      <div class="line-divider">
+        <span class="line-divider__column">Open Chat</span>
+        <span class="line-divider__column">
+          <a href="">Go to Openchat Home</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </div>
+
+      <div class="open-chat-hashtag">
+        <div class="open-chat-hashtag-column">
+          <div class="open-chat-hashtag-column__title">#송경훈</div>
+          <div class="open-chat-hashtag-column__info">#제로투#귀여움#SEXY</div>
+          <div class="open-chat-hashtag-column__status">
+            <img src="screenshots/kyeonghun.jpg" />
+            <span>802 members | Active</span>
           </div>
         </div>
-
-        <div class="user-component__column">
-          <span>2</span>
-          <i class="fas fa-chevron-right fa-xs"></i>
+        <div class="open-chat-hashtag-column">
+          <div class="open-chat-hashtag__photo">
+            <img src="screenshots/kyeonghun.jpg" />
+            <div class="open-chat-hashtag-column__hearts">
+              <i class="fa-solid fa-heart"></i>
+              <span>325</span>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -79,7 +95,6 @@
         </li>
         <li class="nav__btn">
           <a href="chats.html" class="nav__link">
-            <span class="nav__notification badge">1</span>
             <i class="fa-regular fa-comment fa-2xl"></i>
           </a>
         </li>

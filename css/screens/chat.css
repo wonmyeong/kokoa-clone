@@ -1,0 +1,134 @@
+#chat-screen {
+  background-color: #abc1d1;
+}
+
+.chat-time-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.chat-time-bar__content {
+  width: 200px;
+  height: 25px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+}
+
+.message-block {
+  margin: var(--horizontal-space);
+}
+
+.message__row {
+  display: flex;
+}
+
+.message__info {
+  display: flex;
+}
+
+.message-content {
+  margin-left: 20px;
+}
+
+.message__speaker {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.message__row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.message__bubble {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 0;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__time {
+  display: flex;
+  margin: 0px 10px;
+  opacity: 0.5;
+}
+
+.message-row--reply {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message-row--reply-info {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.type {
+  display: flex;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.type__column {
+  display: flex;
+  color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+}
+
+.type__column:first-child {
+  width: 10%;
+}
+
+.type__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.type__column:last-child input {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+  padding: 10px 5px;
+  margin: 5px 0;
+}
+
+.type__column:last-child > i,
+.type__column:last-child button {
+  position: absolute;
+  right: 10px;
+}
+
+.type__column:last-child > i {
+  right: 50px;
+}
+
+.type__column:last-child button {
+  background-color: var(--yellow);
+  border-radius: 50%;
+  border: none;
+  color: white;
+}

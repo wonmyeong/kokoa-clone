@@ -1,0 +1,38 @@
+.alt-screen {
+  position: sticky;
+  top: 30px;
+}
+
+.alt-screen-bar {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  opacity: 0.7;
+  align-items: center;
+}
+
+.alt-screen-bar__column {
+  width: 33%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+.alt-screen-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.alt-screen-bar .alt-screen-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.alt-screen-bar div .fa-magnifying-glass {
+  margin-right: 20px;
+}
+
+.alt-screen-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}

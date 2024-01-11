@@ -1,0 +1,26 @@
+.user-component {
+  padding: 0 var(--horizontal-space);
+  justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-component__column img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.user-component:last-child .user-component__column:last-child {
+  opacity: 0.7;
+}
